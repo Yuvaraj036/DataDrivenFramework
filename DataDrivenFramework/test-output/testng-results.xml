@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-02T16:40:15 IST" name="Default suite" finished-at="2024-12-02T16:40:18 IST" duration-ms="3878">
+    <groups>
+    </groups>
+    <test started-at="2024-12-02T16:40:15 IST" name="Default test" finished-at="2024-12-02T16:40:18 IST" duration-ms="3878">
+      <class name="com.hutech.testCases.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.hutech.testCases.LoginTest@10289886]" started-at="2024-12-02T16:40:07 IST" name="setUp" finished-at="2024-12-02T16:40:15 IST" duration-ms="7546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginAsBankManager()[pri:0, instance:com.hutech.testCases.LoginTest@10289886]" started-at="2024-12-02T16:40:15 IST" name="loginAsBankManager" finished-at="2024-12-02T16:40:16 IST" duration-ms="1288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+        <test-method signature="addBankmanagerCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.hutech.testCases.LoginTest@10289886]" started-at="2024-12-02T16:40:17 IST" name="addBankmanagerCustomer" data-provider="getData1" finished-at="2024-12-02T16:40:17 IST" duration-ms="333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[raj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[arun@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBankmanagerCustomer -->
+        <test-method signature="signUpCompletion(java.lang.String)[pri:2, instance:com.hutech.testCases.LoginTest@10289886]" started-at="2024-12-02T16:40:17 IST" name="signUpCompletion" data-provider="getData2" finished-at="2024-12-02T16:40:17 IST" duration-ms="110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.2345678E7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpCompletion -->
+        <test-method signature="getDOB()[pri:3, instance:com.hutech.testCases.LoginTest@10289886]" started-at="2024-12-02T16:40:17 IST" name="getDOB" finished-at="2024-12-02T16:40:18 IST" duration-ms="1104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDOB -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hutech.testCases.LoginTest@10289886]" started-at="2024-12-02T16:40:19 IST" name="tearDown" finished-at="2024-12-02T16:40:19 IST" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hutech.testCases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
